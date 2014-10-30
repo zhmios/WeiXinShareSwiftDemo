@@ -30,7 +30,10 @@ class RootViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-
+    func changeHistory (){
+        println("更改1");
+    
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
