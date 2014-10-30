@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE23584F1A020D2A00B90834 /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23584E1A020D2A00B90834 /* SecViewController.swift */; };
 		CEA0020219CFC41300BCFB08 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA001FF19CFC41300BCFB08 /* libWeChatSDK.a */; };
 		CEFD13F219CD6F8A0019837D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD13F119CD6F8A0019837D /* AppDelegate.swift */; };
 		CEFD13F419CD6F8A0019837D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD13F319CD6F8A0019837D /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE23584E1A020D2A00B90834 /* SecViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
 		CEA001FF19CFC41300BCFB08 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		CEA0020019CFC41300BCFB08 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		CEA0020119CFC41300BCFB08 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				CEFD13F119CD6F8A0019837D /* AppDelegate.swift */,
 				CEFD141119CD6FA80019837D /* RootViewController.swift */,
+				CE23584E1A020D2A00B90834 /* SecViewController.swift */,
 				CEFD13F319CD6F8A0019837D /* ViewController.swift */,
 				CEFD13F519CD6F8A0019837D /* Main.storyboard */,
 				CEFD141319CD78590019837D /* image.png */,
@@ -245,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE23584F1A020D2A00B90834 /* SecViewController.swift in Sources */,
 				CEFD13F419CD6F8A0019837D /* ViewController.swift in Sources */,
 				CEFD13F219CD6F8A0019837D /* AppDelegate.swift in Sources */,
 				CEFD141219CD6FA80019837D /* RootViewController.swift in Sources */,
